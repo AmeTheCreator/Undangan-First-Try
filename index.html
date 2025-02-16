@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Undangan Mesangih</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" h    ref="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--bootstrap-icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="countdown/default.css"/>
+    <script src="countdown/simplyCountdown.umd.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <audio id="bg-music" loop>
+      <source src="music/background.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <button id="mute-button" class="btn btn-light position-fixed bottom-0 end-0 m-3">
+      <i class="bi bi-volume-up"></i>
+    </button>
+    
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white" >
+        <main>
+          <h4>Yang Terhormat,</h4>
+            <h4>Kepada Bapak/Ibu/Saudara/i dari</h4>
+        <h1>Ni Luh Gede Cantika Permata Sari</h1>
+        <p> Akan melakasanakan acara resepsi pascaupacara Mepandes dalam:</p>
+        <div class="simply-countdown"></div>
+       
+        <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()" id="play-music">Lihat Undangan</a>
+     
+        </main>
+    </section>
+    <nav class="navbar navbar-expand-md  sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Luh De</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Luh De</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link " href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gift">Gift</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10 text-center">
+          
+          <h2>Om Swastyastu</h2>
+          <p> </p>
+          <h3>Kami selaku keluarga dari akan melangsungkan Upacara Mepandes putri kami NI LUH GEDE CANTIKA PERMATA SARI <br> Pada 27 September 2025 di Mengwi, Badung  </h3>
+          
+          <p> Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang <br> Bapak/Ibu/Saudara/i untuk hadri dalam acara Resepsi ini </p>
+        
+          </div>
+          <div class="row pitcure justify-content-center align-items-center text-center">
+            <div class="col-lg-6">
+              <div class="row d-flex justify-content-center align-items-center">
+                
+                <div class="col-4">
+                  <img src="img/Photo.png" alt="Luh De" class="img-responsive rounded-circle">
+                </div>
+                <div class="col-15 mt-3">
+                  <h3> Ni Luh Gede Cantika Permata Sari</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis est eveniet sequi ratione perspiciatis magni.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Lokasi Acara: Balai Banjar Babakan Kawan<br>Jl.Gatep, Gulingan, Kec. Mengwi, Kabupaten Badung, Bali</p>
+            <a href="https://maps.app.goo.gl/93qXCtnuqsPsqMg37" target="_blank" class="btn btn-light btn-sm my-3  " >Google Maps</a>
+            <p class="description">Diharapkan untuk hadir SETELAH jam 8 agar dapat di layani dengan baik. Manakala tiba di tujuan namun tidak ada tanda-tanda sedang dilangsungkan acara, boleh jadi anda salah jadwal, ataupun salah tempat.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">
+                Acara Mesangih
+              </div>
+              <div class="card-body">
+               <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>10:00 - 16:00</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar3 d-block"></i>
+                  <span>Sabtu, 27 September 2025</span>
+                </div>
+               </div>
+              </div>
+              <div class="card-footer ">
+                Diharapkan saat acara, Bapak/Ibu/Saudara/i, <br>
+                selalu menjaga kekhushuan seluruh acara.
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-5 col-10">
+
+            <div class="card text-center text-bg-light">
+              <div class="card-header">
+                Resepsi
+              </div>
+              <div class="card-body">
+               <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>18:00 - selesai</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar3 d-block"></i>
+                  <span>Sabtu, 27 September 2025</span>
+                </div>
+               </div>
+              </div>
+              <div class="card-footer ">
+                Diharapkan saat acara, Bapak/Ibu/Saudara/i, <br>
+                selalu menjaga kekhushuan seluruh acara.
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="rsvp" class="rsvp">
+      <div class="container"> 
+        <div class="row justify-content-center"> 
+        <div class="col-md-8 col-10 text-center"> 
+        
+        <h2>Konfirmasi Kehadiran</h2> 
+        <p>Isi form di bawah ini untuk konfirmasi kehadiran.</p> 
+        </div> 
+        </div>
+
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+        method="POST" 
+        action="https://script.google.com/macros/s/AKfycbzU6Jz177NP1YnLR3515qmx740_ULHn6WVb9IIMEmdipZfl5G2amDO30DEtufmTNyyUJg/exec"
+        id="my-form">
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama">
+            </div>
+            </div>
+
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="jumlah" class="form-label">Jumlah</label>
+                <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+              </div>
+              </div>
+
+              <div class="col-12">
+                <div class="mb-3">
+                  <label for="status" class="form-label">Konfirmasi</label>
+                  <select name="status" id="status" class="form-select">
+                    <option selected >Pilih salah satu</option>
+                    <option value="Hadir">Hadir</option>
+                    <option value="Tidak Hadir">Tidak Hadir</option>
+                  </select>
+                </div>
+                </div>
+
+                <div class="col-12" style="margin-top: 35px;">
+                  <button class="btn btn-primary">Kirim</button>
+                </div>
+        </form>
+      </div>
+
+    </section>
+
+    <section id="gift" class="gift">
+      <div class="container"> 
+        <div class="row justify-content-center"> 
+        <div class="col-md-8 col-10 text-center"> 
+        <span>ungkapan tanda kasih</span>
+        <h2>Kirim Hadiah</h2> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugiat maiores sapiente quibusdam voluptate sunt.</p> 
+        </div> 
+        </div>
+<div class="row justify-content-center text-center">
+  <div class="col-md-6">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <div class=" fw-bold">BCA</div>
+        123456789 - Agastya
+      </li>
+      <li class="list-group-item">
+        <div class=" fw-bold">BRI</div>
+        202408271 - Agastya Mahadipta
+      </li>
+      <li class="list-group-item">
+        <div class=" fw-bold">QRIS</div>
+       <img src="img/Dana.png" alt="Dana QR" class="img-thumbnail" width="150" height="150">
+      </li>
+    </ul>
+  </div>
+</div>
+
+      </div>
+    </section>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <small class="block">
+                &copy; @2025 LuhDe Resepsi. All Right Reserved. 
+              </small>
+              <small class="block">
+                Design by <a href="https://instagram.com/agastyamahadipta">@AgastyaMahadipta</a>  
+                <ul class="mt-3">
+                  <li> <a href="https://instagram.com/agastyamahadipta"><i class="bi bi-instagram"></i></a> </li>
+                  <li> <a href="https://www.facebook.com/agastya.mahadipta.9"><i class="bi bi-facebook"></i></a> </li>
+                  <li> <a href="https://www.youtube.com/@agastyamahadipta"><i class="bi bi-youtube"></i></a> </li>
+                </ul>
+              </small>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      simplyCountdown('.simply-countdown', 
+      {year: 2025, // Target year (required)
+        month: 9, // Target month [1-12] (required)
+        day: 27, // Target day [1-31] (required)
+        hours: 18, // Target hour [0-23], default: 0
+        words: { // Custom labels, with lambda for plurals
+            days: { root: 'Hari', lambda: (root, n) => n > 1 ? root + '' : root },
+            hours: { root: 'Jam', lambda: (root, n) => n > 1 ? root + '' : root },
+            minutes: { root: 'Menit', lambda: (root, n) => n > 1 ? root + '' : root },
+            seconds: { root: 'Detik', lambda: (root, n) => n > 1 ? root + '' : root }
+        },
+        
+        
+        
+    });
+    document.getElementById("mute-button").addEventListener("click", function() {
+      var audio = document.getElementById("bg-music");
+      var icon = this.querySelector("i");
+      if (audio.muted) {
+        audio.muted = false;
+        icon.classList.remove("bi-volume-mute");
+        icon.classList.add("bi-volume-up");
+      } else {
+        audio.muted = true;
+        icon.classList.remove("bi-volume-up");
+        icon.classList.add("bi-volume-mute");
+      }
+    });
+    
+    document.getElementById("play-music").addEventListener("click", function() {
+      var audio = document.getElementById("bg-music");
+      if (audio.paused) {
+        audio.play();
+      }
+    });
+
+    </script>
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function(){ stickyTop.style.overflow ='visible'
+
+      });
+      
+
+      offcanvas.addEventListener('hidden.bs.offcanvas', function(){ stickyTop.style.overflow ='hidden'
+
+      });
+       
+      
+    </script>
+    <script>
+      const rootElement = document.querySelector(":root")
+      function disableScroll(){
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll =function(){
+          window.scrollTo(screenTop,scrollLeft);
+        }
+        
+        rootElement.style.scrollBehavior = 'auto'
+      }
+
+      function enableScroll(){
+        window.onscroll =function(){
+          rootElement.style.scrollBehavior = 'smooth';
+          localStorage.setItem('opened','true');
+      }
+    }
+    if(!localStorage.getItem('opened')){
+      disableScroll();
+    }
+    </script>
+    <script>
+      window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("Status Kehadiran Di Konfirmasi!");
+    })
+  });
+});
+
+    </script>
+  </body>
+</html>
